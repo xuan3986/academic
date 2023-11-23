@@ -62,34 +62,40 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: 高中
+          company: 河北衡水中学
+          company_url: 'https://hbhszx.cn/'
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          location: 中国河北
+          date_start: '2017-7'
+          date_end: '2020-7'
           description: |2-
-              Responsibilities include:
+              高中经历:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
+              * 高一到高三上学期在奥赛班学习化学竞赛
+              * 参加了第33届化学竞赛初赛并获奖
+              * 高三转到实验班备战高考，高考成绩663分。
+        - title: 本科
+          company: 西北工业大学
+          company_url: 'https://www.nwpu.edu.cn/'
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: 中国陕西
+          date_start: '2020-9'
+          date_end: 'today'
+          description: |2-
+              大学经历：
+
+              * 大一在物理科学与技术学院物理大类就读，任学习委员、学生会干事，荣获国家奖学金，一等学业奖学金，参加第十四届全运会开闭幕式，担任方阵旗手。
+              * 大二转专业到计算机学院，计算机科学与技术专业，任学习委员，荣获吴亚军奖学金，国家励志奖学金，一等学业奖学金，参与ASLP实习获得优秀实习个人。
+              * 大三任学习委员，成为中共预备党员，荣获小米优秀奖学金，国家励志奖学金，一等学业奖学金。
+              * 大四保研至中国科学技术大学，语音合成方向，成为中共党员。
     design:
       columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
-      subtitle:
+      subtitle: 2020
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Accomplishments.
@@ -125,6 +131,7 @@ sections:
           organization_url: https://www.datacamp.com
           title: 'Object-Oriented Programming in R'
           url: ''
+      subtitle: 2021
     design:
       columns: '2'
   - block: collection
