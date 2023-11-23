@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Postgraduate student of NEL-SLIP
+role: Preparatory postgraduate student at University of Science and Technology of China
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -123,5 +123,6 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Jiaxuan Liu is a senior student majoring in computer science and technology at Northwestern Polytechnical University. He has been recommended to the University of Science and Technology of China for postgraduate study. He is doing research at the National Engineering Lib of Speech and Language Information Processing and is engaged in the field of speech synthesis.
+
 {style="text-align: justify;"}
