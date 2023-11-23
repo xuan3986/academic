@@ -251,8 +251,8 @@ sections:
       office_hours: 'Working days 10:00-17:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '31.83847164209568'
-        longitude: '117.26852094557694'  
+        latitude: '31.82947164209566'
+        longitude: '117.12952094557694'  
       contact_links:
         - icon: twitter
           icon_pack: fab
