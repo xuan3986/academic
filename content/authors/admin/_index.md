@@ -1,50 +1,46 @@
 ---
 # Display name
-title: 吳健雄
+title: 刘佳璇
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Jiaxuan Liu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Jiaxuan
+last_name: Liu
 
 # Status emoji
-status:
-  icon: ☕️
+status: 
+  icon: 🥰
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Postgraduate student of NEL-SLIP
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: National Engineering Lib of Speech and Language Information Processing
+    url: http://nelslip.ustc.edu.cn/main.htm
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include text-to-speech, multimodality and large model.
 
 # Interests to show in About widget
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Speech synthesis
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: BEng in Computer Science and Technology
+      institution: Northwestern Polytechnical University
+      year: 2024
+    - course: Preparatory postgraduate student in Information and Communication Engineering
+      institution: University of Science and Technology of China
+      year: 2023
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -53,13 +49,23 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 100
         icon: python
-        icon_pack: fab
-      - name: Data Science
+        icon_pack: fas
+      - name: Speech synthesis
         description: ''
         percent: 100
-        icon: chart-line
+        icon: microphone
+        icon_pack: fas
+      - name: Linux
+        description: ''
+        percent: 60
+        icon: linux
+        icon_pack: fas
+      - name: SQL
+        description: ''
+        percent: 40
+        icon: database
         icon_pack: fas
       - name: SQL
         description: ''
@@ -72,18 +78,23 @@ skills:
     items:
       - name: Hiking
         description: ''
-        percent: 60
+        percent: 80
         icon: person-hiking
         icon_pack: fas
-      - name: Cats
+      - name: Swimming
         description: ''
-        percent: 100
-        icon: cat
+        percent: 80
+        icon: person-swimming
         icon_pack: fas
       - name: Photography
         description: ''
         percent: 80
         icon: camera-retro
+        icon_pack: fas
+      - name: Calligraphy
+        description: ''
+        percent: 100
+        icon: paintbrush
         icon_pack: fas
 
 # Social/Academic Networking
