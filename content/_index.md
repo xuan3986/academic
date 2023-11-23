@@ -235,22 +235,20 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        If you are interested, please contact me.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: 18803383986@163.com
+      phone: 18803383986
+      # appointment_url: 
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        street: No.100, Fuxing Road
+        city: HeFei
+        region: Shushan District
+        postcode: '230031'
+        country: China
+        country_code: CH
+      directions: Enter Xin Zhi Building
+      office_hours: 'Working days 10:00-17:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
         latitude: '37.4275'
