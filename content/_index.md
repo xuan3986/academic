@@ -67,8 +67,8 @@ sections:
           company_url: 'https://hbhszx.cn/'
           company_logo: org-gc
           location: 中国河北
-          date_start: '2017-7-1'
-          date_end: '2020-7-1'
+          date_start: '2017-07-01'
+          date_end: '2020-07-01'
           description: |2-
               高中经历:
 
@@ -80,7 +80,7 @@ sections:
           company_url: 'https://www.nwpu.edu.cn/'
           company_logo: org-x
           location: 中国陕西
-          date_start: '2020-9-1'
+          date_start: '2020-09-01'
           date_end: ''
           description: |2-
               大学经历：
