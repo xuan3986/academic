@@ -37,6 +37,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: Chemistry Olympiad
+      institution: Hengshui High School, Hebei, China
+      year: 2017-2020
     - course: Computer Science and Technology
       institution: Northwestern Polytechnical University, Xi'an, China
       year: 2020-2024
@@ -125,7 +128,7 @@ social:
 highlight_name: true
 ---
 
-Jiaxuan Liu is a postgraduate at the University of Science and Technology of China. He graduated with distinction from Northwestern Polytechnical University, ranking first in his undergraduate program and receiving multiple scholarships and honors. 
+Jiaxuan Liu is a postgraduate at the University of Science and Technology of China. He graduated with distinction from Northwestern Polytechnical University, ranking first in undergraduate comprehensive score and receiving multiple scholarships and honors. 
 Since 2022, he has been involved in algorithm research in the field of text-to-speech, with internships at the ASLP Lab, Huawei, and iFLYTEK Co.Ltd.
 To date, he has published several academic papers.
 

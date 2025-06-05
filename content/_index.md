@@ -62,33 +62,29 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: 高中
-          company: 河北衡水中学
+        - title: Senior School
+          company: Hengshui High School
           company_url: 'https://hbhszx.cn/'
           company_logo: org-gc
-          location: 中国河北
+          location: Hebei, China
           date_start: '2017-07-01'
           date_end: '2020-07-01'
           description: |2-
-              高中经历:
-
-              * 高一到高三上学期在奥赛班学习化学竞赛
-              * 参加了第33届化学竞赛初赛并获奖
-              * 高三转到实验班备战高考，高考成绩663分。
-        - title: 本科
-          company: 西北工业大学
+              * Frist prize in the 33rd Chinese Chemistry Olympiad.
+              * 663 points in the national college entrance examination.
+        - title: Undergraduate
+          company: Northwestern Polytechnical University
           company_url: 'https://www.nwpu.edu.cn/'
           company_logo: org-x
-          location: 中国陕西
+          location: Xi'an, China
           date_start: '2020-09-01'
-          date_end: ''
+          date_end: '2024-06-28'
           description: |2-
-              大学经历：
-
-              * 大一在物理科学与技术学院物理大类就读，任学习委员、学生会干事，荣获国家奖学金，一等学业奖学金，参加第十四届全运会开闭幕式，担任方阵旗手。
-              * 大二转专业到计算机学院，计算机科学与技术专业，任学习委员，荣获吴亚军奖学金，国家励志奖学金，一等学业奖学金，参与ASLP实习获得优秀实习个人。
-              * 大三任学习委员，成为中共预备党员，荣获小米优秀奖学金，国家励志奖学金，一等学业奖学金。
-              * 大四保研至中国科学技术大学，语音合成方向，成为中共党员。
+              * Study monitor and school-level student union member.
+              * 2020-2021 School of Physical Science and Technology, Physics general class.
+              * 2021-2024 School of Computer Science, Computer Science and Technology.
+              * National Scholarship, National Inspirational Scholarship, Yajun Wu Special Scholarship, Xiaomi Excellent Scholarship, First Class Academic Scholarship
+              * Ranked first in comprehensive score, recommended for admission to the University of Science and Technology of China.
     design:
       columns: '2'
   - block: accomplishments
