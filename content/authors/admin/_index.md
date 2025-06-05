@@ -17,11 +17,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Postgraduate at University of Science and Technology of China
+role: Postgraduate, Communist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: National Engineering Research Center of Speech and Language Information Processing （NERCSLIP）
+  - name: National Engineering Research Center of Speech and Language Information Processing (NERCSLIP), University of Science and Technology of China
     url: http://nelslip.ustc.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
@@ -125,6 +125,8 @@ social:
 highlight_name: true
 ---
 
-Jiaxuan Liu is a senior student majoring in computer science and technology at Northwestern Polytechnical University. He has been recommended to the University of Science and Technology of China for postgraduate study. He is doing research at the National Engineering Lib of Speech and Language Information Processing and is engaged in the field of speech synthesis.
+Jiaxuan Liu is a postgraduate at the University of Science and Technology of China. He graduated with distinction from Northwestern Polytechnical University, ranking first in his undergraduate program and receiving multiple scholarships and honors. 
+Since 2022, he has been involved in algorithm research in the field of text-to-speech, with internships at the ASLP Lab, Huawei, and iFLYTEK Co.Ltd.
+To date, he has published several academic papers.
 
 {style="text-align: justify;"}
