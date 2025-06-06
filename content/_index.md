@@ -88,6 +88,9 @@ sections:
               * 2022 Yajun Wu Special Scholarship.
               * 2023 Xiaomi Excellent Scholarship.
               * 2021-2023 First Class Academic Scholarship.
+              * 2022 Jun.-Aug. Excellent intern at ASLP@NPU lab.
+              * 2023 Jun.-Aug. Intern at Huawei.
+              * 2023 Nov.-2024 Apr. Intern at iFLYTEK Co.Ltd.
               * Outstanding Graduate of Northwestern Polytechnical University.
               * Ranked first in comprehensive score, recommended for admission to the University of Science and Technology of China.
         - title: Postgraduate
@@ -98,17 +101,18 @@ sections:
           date_start: '2024-09-03'
           date_end: '2027-06-30'
           description: |2-
-              * Party branch secretary.
-              * School of information science and technology, Information and Communication Engineering.
-              * Engaged in TTS research in NERCSLIP.
+              * 2024-now Party branch secretary.
+              * 2024-now School of information science and technology, Information and Communication Engineering.
+              * 2024-now Engaged in TTS research in NERCSLIP.
               * 2024 First Class Academic Scholarship.
     design:
       columns: '2'
 
   - block: accomplishments
+    id: awards
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Scholarship (partial)'
+      title: 'Scholarship (Partial)'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -194,7 +198,7 @@ sections:
       columns: '2'
   - block: accomplishments
     content:
-      title: 'Competition Awards (partial)'
+      title: 'Competition (Partial)'
       subtitle:
       date_format: Jan 2006
       items:
@@ -234,6 +238,24 @@ sections:
           organization_url: 'http://www.cps-net.org.cn/'
           title: China Undergraduate Physics Tournament (CUPT) Shaanxi Team First Award
           url: 'https://www.cupt-iypt.com/'
+        - certificate_url: uploads/wenxin.jpg
+          date_end: ''
+          date_start: '2022-10-10'
+          description: ''
+          icon: wenxin
+          organization: Baidu Wenxin
+          organization_url: 'https://wenxin.baidu.com/'
+          title: Baidu Wenxin LLM Application Co-construction GitHub A- Award
+          url: 'https://wenxin.baidu.com/younger'
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2022-09-05'
+          description: ''
+          icon: nwpu
+          organization: Northwestern Polytechnical University
+          organization_url: 'https://en.nwpu.edu.cn/'
+          title: Programming Competition First Award
+          url: 'https://jiaowu.nwpu.edu.cn/info/1160/8306.htm'
     design:
       columns: '2'
   - block: collection
