@@ -181,6 +181,15 @@ sections:
           organization_url: ''
           title: 2024 Master's First Class Scholarship
           url: ''
+        - certificate_url: uploads/优秀毕业生.pdf
+          date_end: ''
+          date_start: '2024-06-30'
+          description: ''
+          icon: ''
+          organization: Northwestern Polytechnical University
+          organization_url: ''
+          title: Outstanding Graduate
+          url: ''
     design:
       columns: '2'
   - block: accomplishments
