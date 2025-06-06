@@ -209,7 +209,7 @@ sections:
           url: 'https://www.mcm.edu.cn/'
         - certificate_url: uploads/CUPT-Ind.jpg
           date_end: ''
-          date_start: '2021-7-5'
+          date_start: '2021-07-05'
           description: ''
           icon: CUPT
           organization: The Chinese Physical Society (CPS)
