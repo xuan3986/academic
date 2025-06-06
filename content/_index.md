@@ -172,7 +172,7 @@ sections:
           organization_url: ''
           title: 2023优秀大学生暨一等奖学金
           url: ''
-        - certificate_url: uploads/优秀毕业生.pdf
+        - certificate_url: ''
           date_end: ''
           date_start: '2024-6-30'
           description: ''
@@ -180,16 +180,16 @@ sections:
           organization: 西北工业大学
           organization_url: ''
           title: 优秀毕业生
+          url: 'https://mp.weixin.qq.com/s/9-KtgJ1bb4zE3UM3gUthdA'
+        - certificate_url: uploads/2024硕士一等学业奖学金.jpg
+          date_end: ''
+          date_start: '2024-10-30'
+          description: ''
+          icon: ''
+          organization: 中国科学技术大学
+          organization_url: ''
+          title: 2024硕士一等学业奖学金
           url: ''
-        # - certificate_url: uploads/2024硕士一等学业奖学金.jpg
-        #   date_end: ''
-        #   date_start: '2024-10-30'
-        #   description: ''
-        #   icon: ''
-        #   organization: 中国科学技术大学
-        #   organization_url: ''
-        #   title: 2024硕士一等学业奖学金
-        #   url: ''
     design:
       columns: '2'
   - block: collection
