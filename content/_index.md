@@ -181,15 +181,15 @@ sections:
           organization_url: ''
           title: 优秀毕业生
           url: ''
-        - certificate_url: uploads/2024硕士一等学业奖学金.jpg
-          date_end: ''
-          date_start: '2024-10-30'
-          description: ''
-          icon: ''
-          organization: 中国科学技术大学
-          organization_url: ''
-          title: 2024硕士一等学业奖学金
-          url: ''
+        # - certificate_url: uploads/2024硕士一等学业奖学金.jpg
+        #   date_end: ''
+        #   date_start: '2024-10-30'
+        #   description: ''
+        #   icon: ''
+        #   organization: 中国科学技术大学
+        #   organization_url: ''
+        #   title: 2024硕士一等学业奖学金
+        #   url: ''
     design:
       columns: '2'
   - block: collection
