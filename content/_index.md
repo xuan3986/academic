@@ -51,9 +51,9 @@ sections:
   #   design:
   #     columns: '1'
   - block: experience
-    id: education
+    id: experience
     content:
-      title: Education
+      title: Experience
       date_format: Jan 2006
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
