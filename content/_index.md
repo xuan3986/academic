@@ -51,7 +51,7 @@ sections:
   #   design:
   #     columns: '1'
   - block: experience
-    id: Education
+    id: education
     content:
       title: Education
       date_format: Jan 2006
