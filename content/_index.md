@@ -75,7 +75,7 @@ sections:
         - title: Undergraduate
           company: Northwestern Polytechnical University
           company_url: 'https://www.nwpu.edu.cn/'
-          company_logo: org-x
+          company_logo: nwpu
           location: Xi'an, China
           date_start: '2020-09-01'
           date_end: '2024-06-28'
@@ -85,6 +85,18 @@ sections:
               * 2021-2024 School of Computer Science, Computer Science and Technology.
               * National Scholarship, National Inspirational Scholarship, Yajun Wu Special Scholarship, Xiaomi Excellent Scholarship, First Class Academic Scholarship
               * Ranked first in comprehensive score, recommended for admission to the University of Science and Technology of China.
+        - title: Undergraduate
+          company: University of Science and Technology of China
+          company_url: 'https://www.ustc.edu.cn/'
+          company_logo: ustc
+          location: Hefei, China
+          date_start: '2024-09-03'
+          date_end: '2027-06-30'
+          description: |2-
+              * Party branch secretary.
+              * School of information science and technology, Information and Communication Engineering.
+              * Engaged in TTS research in NERCSLIP.
+              * First Class Academic Scholarship.
     design:
       columns: '2'
   - block: accomplishments
