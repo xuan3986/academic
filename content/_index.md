@@ -285,11 +285,20 @@ sections:
         - certificate_url: uploads/CN116630684B.PDF
           date_end: ''
           date_start: '2025-04-01'
-          description: ''
+          description: 'A Lightweight End-to-End Object Segmentation Method for Road Damage Detection' 
           icon: zhuanli
           organization: China National Intellectual Property Administration
           organization_url: https://www.cnipa.gov.cn/
           title: Chinese Invention Patents
+          url: 'https://pss-system.cponline.cnipa.gov.cn/conventionalSearch'
+        - certificate_url: uploads/ASLP.jpg
+          date_end: ''
+          date_start: '2022-09-01'
+          description: ''
+          icon: aslp
+          organization: Shaanxi Provincial Key Laboratory of Speech & Image Information Processing, ASLP@NPU Lab
+          organization_url: https://www.cnipa.gov.cn/
+          title: Excellent Intern in "AI Intelligent Speech Internship Program"
           url: 'https://pss-system.cponline.cnipa.gov.cn/conventionalSearch'
     design:
       columns: '2'
