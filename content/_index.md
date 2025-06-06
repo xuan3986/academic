@@ -180,7 +180,7 @@ sections:
           organization: 西北工业大学
           organization_url: ''
           title: 优秀毕业生
-          url: 'https://mp.weixin.qq.com/s/9-KtgJ1bb4zE3UM3gUthdA'
+          url: https://mp.weixin.qq.com/s/9-KtgJ1bb4zE3UM3gUthdA
         - certificate_url: uploads/2024硕士一等学业奖学金.jpg
           date_end: ''
           date_start: '2024-10-30'
@@ -311,7 +311,7 @@ sections:
       text: |-
         If you are interested, please contact me.
       # Contact (add or remove contact options as necessary)
-      email: 18803383986@163.com
+      email: jxliu@mail.ustc.edu.cn
       phone: 18803383986
       # appointment_url: 
       address:
