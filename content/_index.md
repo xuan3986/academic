@@ -216,15 +216,15 @@ sections:
           organization_url: 'http://www.cps-net.org.cn/'
           title: China Undergraduate Physics Tournament (CUPT) Shaanxi Individual First Award
           url: 'https://www.cupt-iypt.com/'
-        - certificate_url: uploads/CUPT-Team.jpg
-          date_end: ''
-          date_start: '2021-7-5'
-          description: ''
-          icon: CUPT
-          organization: The Chinese Physical Society (CPS)
-          organization_url: 'http://www.cps-net.org.cn/'
-          title: China Undergraduate Physics Tournament (CUPT) Shaanxi Team First Award
-          url: 'https://www.cupt-iypt.com/'
+        # - certificate_url: uploads/CUPT-Team.jpg
+        #   date_end: ''
+        #   date_start: '2021-7-5'
+        #   description: ''
+        #   icon: CUPT
+        #   organization: The Chinese Physical Society (CPS)
+        #   organization_url: 'http://www.cps-net.org.cn/'
+        #   title: China Undergraduate Physics Tournament (CUPT) Shaanxi Team First Award
+        #   url: 'https://www.cupt-iypt.com/'
     design:
       columns: '2'
   - block: collection
