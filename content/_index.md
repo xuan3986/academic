@@ -70,8 +70,8 @@ sections:
           date_start: '2017-07-01'
           date_end: '2020-07-01'
           description: |2-
-              * Frist prize in the 33rd Chinese Chemistry Olympiad.
-              * 663 points in the national college entrance examination.
+              * 2019 Frist prize in the 33rd Chinese Chemistry Olympiad.
+              * 2020 663 points in the national college entrance examination.
         - title: Undergraduate
           company: Northwestern Polytechnical University
           company_url: 'https://www.nwpu.edu.cn/'
@@ -80,10 +80,16 @@ sections:
           date_start: '2020-09-01'
           date_end: '2024-06-28'
           description: |2-
-              * Study monitor and school-level student union member.
+              * 2020-2024 Study committee.
+              * 2020-2021 School-level student union member, college peer mentor.
               * 2020-2021 School of Physical Science and Technology, Physics general class.
               * 2021-2024 School of Computer Science, Computer Science and Technology.
-              * National Scholarship, National Inspirational Scholarship, Yajun Wu Special Scholarship, Xiaomi Excellent Scholarship, First Class Academic Scholarship.
+              * 2021 National Scholarship.
+              * 2022-2023 National Inspirational Scholarship.
+              * 2022 Yajun Wu Special Scholarship.
+              * 2023 Xiaomi Excellent Scholarship.
+              * 2021-2023 First Class Academic Scholarship.
+              * Outstanding Graduate of Northwestern Polytechnical University.
               * Ranked first in comprehensive score, recommended for admission to the University of Science and Technology of China.
         - title: Postgraduate
           company: University of Science and Technology of China
@@ -112,7 +118,7 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: uploads/resume.pdf
+        - certificate_url: uploads/国家奖学金.jpg
           date_end: ''
           date_start: '2021-12-30'
           description: ''
