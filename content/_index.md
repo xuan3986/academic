@@ -256,6 +256,24 @@ sections:
           organization_url: 'https://en.nwpu.edu.cn/'
           title: Programming Competition First Award
           url: 'https://jiaowu.nwpu.edu.cn/info/1160/8306.htm'
+        - certificate_url: uploads/math.jpg
+          date_end: ''
+          date_start: '2021-11-30'
+          description: ''
+          icon: nwpu
+          organization: Northwestern Polytechnical University
+          organization_url: 'https://en.nwpu.edu.cn/'
+          title: Mathematics Competition First Award
+          url: ''
+        - certificate_url: uploads/physics.jpg
+          date_end: ''
+          date_start: '2021-05-30'
+          description: ''
+          icon: nwpu
+          organization: Northwestern Polytechnical University
+          organization_url: 'https://en.nwpu.edu.cn/'
+          title: Physics Experiment Competition First Award
+          url: 'https://physics.nwpu.edu.cn/info/1051/2013.htm'
     design:
       columns: '2'
   - block: collection
