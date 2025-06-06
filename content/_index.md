@@ -83,9 +83,9 @@ sections:
               * Study monitor and school-level student union member.
               * 2020-2021 School of Physical Science and Technology, Physics general class.
               * 2021-2024 School of Computer Science, Computer Science and Technology.
-              * National Scholarship, National Inspirational Scholarship, Yajun Wu Special Scholarship, Xiaomi Excellent Scholarship, First Class Academic Scholarship
+              * National Scholarship, National Inspirational Scholarship, Yajun Wu Special Scholarship, Xiaomi Excellent Scholarship, First Class Academic Scholarship.
               * Ranked first in comprehensive score, recommended for admission to the University of Science and Technology of China.
-        - title: Undergraduate
+        - title: Postgraduate
           company: University of Science and Technology of China
           company_url: 'https://www.ustc.edu.cn/'
           company_logo: ustc
@@ -102,7 +102,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Honor'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -116,9 +116,9 @@ sections:
           date_end: ''
           date_start: '2021-12-30'
           description: ''
-          icon: coursera
+          icon: ''
           organization: 中华人民共和国教育部
-          organization_url: https://www.coursera.org
+          organization_url: ''
           title: 国家奖学金
           url: ''
         - certificate_url: https://www.edx.org
