@@ -308,7 +308,7 @@ sections:
           organization: General Administration of Sport
           organization_url: https://www.sport.gov.cn/n4/n23367606/index.html
           title: Flag phalanx member of the 14th National Games of the People's Republic of China
-          url: 'https://pss-system.cponline.cnipa.gov.cn/conventionalSearch'
+          url: 'https://news.nwpu.edu.cn/info/1002/78675.htm'
     design:
       columns: '2'
   - block: collection
