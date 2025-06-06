@@ -185,15 +185,6 @@ sections:
           organization_url: ''
           title: 2024 Master's First Class Scholarship
           url: ''
-        - certificate_url: uploads/优秀毕业生.pdf
-          date_end: ''
-          date_start: '2024-06-30'
-          description: ''
-          icon: ''
-          organization: Northwestern Polytechnical University
-          organization_url: ''
-          title: Outstanding Graduate
-          url: ''
     design:
       columns: '2'
   - block: accomplishments
@@ -282,6 +273,15 @@ sections:
       subtitle:
       date_format: Jan 2006
       items:
+        - certificate_url: uploads/优秀毕业生.pdf
+          date_end: ''
+          date_start: '2024-06-30'
+          description: ''
+          icon: nwpu
+          organization: Northwestern Polytechnical University
+          organization_url: 'https://en.nwpu.edu.cn/'
+          title: Outstanding Graduate
+          url: 'https://mp.weixin.qq.com/s/9-KtgJ1bb4zE3UM3gUthdA'
         - certificate_url: uploads/CN116630684B.PDF
           date_end: ''
           date_start: '2025-04-01'
