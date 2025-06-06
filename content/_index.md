@@ -174,7 +174,7 @@ sections:
           url: ''
         - certificate_url: uploads/优秀毕业生.jpg
           date_end: ''
-          date_start: '2024-6-15'
+          date_start: '2024-6-30'
           description: ''
           icon: ''
           organization: 西北工业大学
