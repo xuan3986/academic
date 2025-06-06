@@ -102,13 +102,13 @@ sections:
               * Party branch secretary.
               * School of information science and technology, Information and Communication Engineering.
               * Engaged in TTS research in NERCSLIP.
-              * First Class Academic Scholarship.
+              * 2024 First Class Academic Scholarship.
     design:
       columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Honor'
+      title: 'Main Honors'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -127,24 +127,78 @@ sections:
           organization_url: ''
           title: 国家奖学金
           url: ''
+        - certificate_url: uploads/吴亚军专项奖学金.jpg
+          date_end: ''
+          date_start: '2022-12-30'
+          description: ''
+          icon: ''
+          organization: 西北工业大学
+          organization_url: ''
+          title: 吴亚军专项奖学金
+          url: ''
+        - certificate_url: uploads/小米优秀专项奖学金.jpg
+          date_end: ''
+          date_start: '2023-12-30'
+          description: ''
+          icon: ''
+          organization: 西北工业大学，小米科技有限责任公司
+          organization_url: ''
+          title: 小米优秀专项奖学金
+          url: ''
+        - certificate_url: uploads/2021优秀大学生.jpg
+          date_end: ''
+          date_start: '2021-11-30'
+          description: ''
+          icon: ''
+          organization: 西北工业大学
+          organization_url: ''
+          title: 2021优秀大学生暨一等奖学金
+          url: ''
+        - certificate_url: uploads/2022优秀大学生.jpg
+          date_end: ''
+          date_start: '2021-11-30'
+          description: ''
+          icon: ''
+          organization: 西北工业大学
+          organization_url: ''
+          title: 2022优秀大学生暨一等奖学金
+          url: ''
+        - certificate_url: uploads/2023优秀大学生.jpg
+          date_end: ''
+          date_start: '2022-12-30'
+          description: ''
+          icon: ''
+          organization: 西北工业大学
+          organization_url: ''
+          title: 2023优秀大学生暨一等奖学金
+          url: ''
+        - certificate_url: uploads/优秀毕业生.jpg
+          date_end: ''
+          date_start: '2024-6-15'
+          description: ''
+          icon: ''
+          organization: 西北工业大学
+          organization_url: ''
+          title: 优秀毕业生
+          url: 'https://mp.weixin.qq.com/s/9-KtgJ1bb4zE3UM3gUthdA'
+        - certificate_url: uploads/2024硕士一等学业奖学金.jpg
+          date_end: ''
+          date_start: '2024-10-30'
+          description: ''
+          icon: ''
+          organization: 中国科学技术大学
+          organization_url: ''
+          title: 2024硕士一等学业奖学金
+          url: ''
         - certificate_url: https://www.edx.org
           date_end: ''
-          date_start: '2021-01-01'
+          date_start: '2023-12-30'
           description: Formulated informed blockchain models, hypotheses, and use cases.
           icon: edx
           organization: edX
           organization_url: https://www.edx.org
           title: Blockchain Fundamentals
           url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
     design:
       columns: '2'
   - block: collection
