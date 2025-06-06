@@ -200,13 +200,31 @@ sections:
           url: 'https://www.comap.com/contests/mcm-icm'
         - certificate_url: uploads/CUMCM.jpg
           date_end: ''
-          date_start: '2021-11-30'
+          date_start: '2022-12-30'
           description: ''
           icon: cumcm
           organization: China Society for Industrial and Applied Mathematics (CSIAM)
           organization_url: 'https://www.csiam.org.cn/'
           title: Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM) Shaanxi First Award
           url: 'https://www.mcm.edu.cn/'
+        - certificate_url: uploads/CUPT-Ind.jpg
+          date_end: ''
+          date_start: '2021-7-5'
+          description: ''
+          icon: CUPT
+          organization: The Chinese Physical Society (CPS)
+          organization_url: 'http://www.cps-net.org.cn/'
+          title: China Undergraduate Physics Tournament (CUPT) Shaanxi Individual First Award
+          url: 'https://www.cupt-iypt.com/'
+        - certificate_url: uploads/CUPT-Team.jpg
+          date_end: ''
+          date_start: '2021-7-5'
+          description: ''
+          icon: CUPT
+          organization: The Chinese Physical Society (CPS)
+          organization_url: 'http://www.cps-net.org.cn/'
+          title: China Undergraduate Physics Tournament (CUPT) Shaanxi Team First Award
+          url: 'https://www.cupt-iypt.com/'
     design:
       columns: '2'
   - block: collection
