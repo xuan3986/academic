@@ -298,7 +298,16 @@ sections:
           icon: aslp
           organization: Shaanxi Provincial Key Laboratory of Speech & Image Information Processing, ASLP@NPU Lab
           organization_url: https://www.cnipa.gov.cn/
-          title: Excellent Intern in "AI Intelligent Speech Internship Program"
+          title: Excellent Intern in "AI Intelligent Speech Internship Program
+          url: 'https://pss-system.cponline.cnipa.gov.cn/conventionalSearch'
+        - certificate_url: uploads/十四运.jpg
+          date_end: ''
+          date_start: '2021-09-30'
+          description: ''
+          icon: shisiyun
+          organization: General Administration of Sport
+          organization_url: https://www.sport.gov.cn/n4/n23367606/index.html
+          title: Flag phalanx member of the 14th National Games of the People's Republic of China
           url: 'https://pss-system.cponline.cnipa.gov.cn/conventionalSearch'
     design:
       columns: '2'
