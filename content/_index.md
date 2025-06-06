@@ -108,7 +108,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Scholarship'
+      title: 'Scholarship (partial)'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -186,7 +186,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Scholarship'
+      title: 'Competition Awards (partial)'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -196,15 +196,15 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: uploads/国家奖学金.jpg
+        - certificate_url: uploads/MCM.png
           date_end: ''
-          date_start: '2021-12-30'
+          date_start: '2023-12-30'
           description: ''
           icon: ''
-          organization: 中华人民共和国教育部
-          organization_url: ''
-          title: 国家奖学金
-          url: ''
+          organization: The Consortium for Mathematics and Its Applications (COMAP)
+          organization_url: 'https://www.comap.com/contests/mcm-icm'
+          title: Mathematical Contest in Modeling (MCM) Finalist Award
+          url: uploads/2332257.png
         - certificate_url: uploads/吴亚军专项奖学金.jpg
           date_end: ''
           date_start: '2022-12-30'
