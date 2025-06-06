@@ -65,7 +65,7 @@ sections:
         - title: Senior School
           company: Hengshui High School
           company_url: 'https://hbhszx.cn/'
-          company_logo: org-gc
+          company_logo: zh
           location: Hebei, China
           date_start: '2017-07-01'
           date_end: '2020-07-01'
