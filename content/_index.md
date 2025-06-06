@@ -276,6 +276,23 @@ sections:
           url: 'https://physics.nwpu.edu.cn/info/1051/2013.htm'
     design:
       columns: '2'
+  - block: accomplishments
+    content:
+      title: 'Other (Partial)'
+      subtitle:
+      date_format: Jan 2006
+      items:
+        - certificate_url: uploads/CN116630684B.PDF
+          date_end: ''
+          date_start: '2025-04-01'
+          description: ''
+          icon: zhuanli
+          organization: China National Intellectual Property Administration
+          organization_url: https://www.cnipa.gov.cn/
+          title: Chinese Invention Patents
+          url: 'https://pss-system.cponline.cnipa.gov.cn/conventionalSearch'
+    design:
+      columns: '2'
   - block: collection
     id: posts
     content:
