@@ -52,7 +52,7 @@ sections:
   #     columns: '1'
   - block: experience
     content:
-      title: Experience
+      title: Education
       date_format: Jan 2006
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
@@ -102,7 +102,7 @@ sections:
               * Engaged in TTS research in NERCSLIP.
               * 2024 First Class Academic Scholarship.
     design:
-      columns: '1'
+      columns: '2'
   - block: portfolio
     id: awards
     content:
@@ -120,8 +120,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Scholarship
+          tag: Scholarship
         - name: Other
           tag: Demo
     design:

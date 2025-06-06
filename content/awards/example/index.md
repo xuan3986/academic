@@ -1,41 +1,78 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+  - Scholarship
 
-# Optional external URL for project (replaces project detail page).
-external_link: ''
-
-image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
-
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: example
+items:
+        - certificate_url: uploads/国家奖学金.jpg
+          date_end: ''
+          date_start: '2021-12-30'
+          description: ''
+          icon: ''
+          organization: Ministry of Education of the People's Republic of China
+          organization_url: ''
+          title: National Scholarship
+          url: ''
+        - certificate_url: uploads/吴亚军专项奖学金.jpg
+          date_end: ''
+          date_start: '2022-12-30'
+          description: ''
+          icon: ''
+          organization: Northwestern Polytechnical University
+          organization_url: ''
+          title: Yajun Wu Special Scholarship
+          url: ''
+        - certificate_url: uploads/小米优秀专项奖学金.jpg
+          date_end: ''
+          date_start: '2023-12-30'
+          description: ''
+          icon: ''
+          organization: Northwestern Polytechnical University and Xiaomi Corporation
+          organization_url: ''
+          title: Xiaomi Excellent Scholarship
+          url: ''
+        - certificate_url: uploads/2021优秀大学生.jpg
+          date_end: ''
+          date_start: '2021-11-30'
+          description: ''
+          icon: ''
+          organization: Northwestern Polytechnical University
+          organization_url: ''
+          title: 2021 Outstanding Student and First Class Scholarship
+          url: ''
+        - certificate_url: uploads/2022优秀大学生.jpg
+          date_end: ''
+          date_start: '2022-12-30'
+          description: ''
+          icon: ''
+          organization: Northwestern Polytechnical University
+          organization_url: ''
+          title: 2022 Outstanding Student and First Class Scholarship
+          url: ''
+        - certificate_url: uploads/2023优秀大学生.jpg
+          date_end: ''
+          date_start: '2023-12-30'
+          description: ''
+          icon: ''
+          organization: Northwestern Polytechnical University
+          organization_url: ''
+          title: 2023 Outstanding Student and First Class Scholarship
+          url: ''
+        - certificate_url: uploads/2024硕士一等学业奖学金.jpg
+          date_end: ''
+          date_start: '2024-10-30'
+          description: ''
+          icon: ''
+          organization: University of Science and Technology of China
+          organization_url: ''
+          title: 2024 Master's First Class Scholarship
+          url: ''
+        - certificate_url: uploads/优秀毕业生.pdf
+          date_end: ''
+          date_start: '2024-06-30'
+          description: ''
+          icon: ''
+          organization: Northwestern Polytechnical University
+          organization_url: ''
+          title: Outstanding Graduate
+          url: ''
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
-
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
-
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
-
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
