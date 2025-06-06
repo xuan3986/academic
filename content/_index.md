@@ -123,78 +123,71 @@ sections:
           date_start: '2021-12-30'
           description: ''
           icon: ''
-          organization: 中华人民共和国教育部
+          organization: Ministry of Education of the People's Republic of China
           organization_url: ''
-          title: 国家奖学金
+          title: National Scholarship
           url: ''
         - certificate_url: uploads/吴亚军专项奖学金.jpg
           date_end: ''
           date_start: '2022-12-30'
           description: ''
           icon: ''
-          organization: 西北工业大学
+          organization: Northwestern Polytechnical University
           organization_url: ''
-          title: 吴亚军专项奖学金
+          title: Yajun Wu Special Scholarship
           url: ''
         - certificate_url: uploads/小米优秀专项奖学金.jpg
           date_end: ''
           date_start: '2023-12-30'
           description: ''
           icon: ''
-          organization: 西北工业大学, 小米科技有限责任公司
+          organization: Northwestern Polytechnical University and Xiaomi Corporation
           organization_url: ''
-          title: 小米优秀专项奖学金
+          title: Xiaomi Excellent Scholarship
           url: ''
         - certificate_url: uploads/2021优秀大学生.jpg
           date_end: ''
           date_start: '2021-11-30'
           description: ''
           icon: ''
-          organization: 西北工业大学
+          organization: Northwestern Polytechnical University
           organization_url: ''
-          title: 2021优秀大学生暨一等奖学金
+          title: 2021 Outstanding Student and First Class Scholarship
           url: ''
         - certificate_url: uploads/2022优秀大学生.jpg
           date_end: ''
           date_start: '2022-12-30'
           description: ''
           icon: ''
-          organization: 西北工业大学
+          organization: Northwestern Polytechnical University
           organization_url: ''
-          title: 2022优秀大学生暨一等奖学金
+          title: 2022 Outstanding Student and First Class Scholarship
           url: ''
         - certificate_url: uploads/2023优秀大学生.jpg
           date_end: ''
           date_start: '2023-12-30'
           description: ''
           icon: ''
-          organization: 西北工业大学
+          organization: Northwestern Polytechnical University
           organization_url: ''
-          title: 2023优秀大学生暨一等奖学金
+          title: 2023 Outstanding Student and First Class Scholarship
           url: ''
         - certificate_url: uploads/2024硕士一等学业奖学金.jpg
           date_end: ''
           date_start: '2024-10-30'
           description: ''
           icon: ''
-          organization: 中国科学技术大学
+          organization: University of Science and Technology of China
           organization_url: ''
-          title: 2024硕士一等学业奖学金
+          title: 2024 Master's First Class Scholarship
           url: ''
     design:
       columns: '2'
   - block: accomplishments
     content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Competition Awards (partial)'
       subtitle:
-      # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - certificate_url: uploads/MCM.png
           date_end: ''
@@ -205,15 +198,15 @@ sections:
           organization_url: https://www.comap.com/
           title: Mathematical Contest in Modeling (MCM) Finalist Award
           url: 'https://www.comap.com/contests/mcm-icm'
-        - certificate_url: uploads/2021优秀大学生.jpg
+        - certificate_url: uploads/CUMCM.jpg
           date_end: ''
           date_start: '2021-11-30'
           description: ''
-          icon: ''
-          organization: 西北工业大学
-          organization_url: ''
-          title: 2021优秀大学生暨一等奖学金
-          url: ''
+          icon: cumcm
+          organization: China Society for Industrial and Applied Mathematics (CSIAM)
+          organization_url: 'https://www.csiam.org.cn/'
+          title: Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM) Shaanxi First Award
+          url: 'https://www.mcm.edu.cn/'
     design:
       columns: '2'
   - block: collection
