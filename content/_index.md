@@ -200,29 +200,11 @@ sections:
           date_end: ''
           date_start: '2023-12-30'
           description: ''
-          icon: ''
+          icon: COMAP
           organization: The Consortium for Mathematics and Its Applications (COMAP)
-          organization_url: 'https://www.comap.com/contests/mcm-icm'
+          organization_url: https://www.comap.com/
           title: Mathematical Contest in Modeling (MCM) Finalist Award
-          url: uploads/2332257.png
-        - certificate_url: uploads/吴亚军专项奖学金.jpg
-          date_end: ''
-          date_start: '2022-12-30'
-          description: ''
-          icon: ''
-          organization: 西北工业大学
-          organization_url: ''
-          title: 吴亚军专项奖学金
-          url: ''
-        - certificate_url: uploads/小米优秀专项奖学金.jpg
-          date_end: ''
-          date_start: '2023-12-30'
-          description: ''
-          icon: ''
-          organization: 西北工业大学, 小米科技有限责任公司
-          organization_url: ''
-          title: 小米优秀专项奖学金
-          url: ''
+          url: 'https://www.comap.com/contests/mcm-icm'
         - certificate_url: uploads/2021优秀大学生.jpg
           date_end: ''
           date_start: '2021-11-30'
@@ -231,33 +213,6 @@ sections:
           organization: 西北工业大学
           organization_url: ''
           title: 2021优秀大学生暨一等奖学金
-          url: ''
-        - certificate_url: uploads/2022优秀大学生.jpg
-          date_end: ''
-          date_start: '2022-12-30'
-          description: ''
-          icon: ''
-          organization: 西北工业大学
-          organization_url: ''
-          title: 2022优秀大学生暨一等奖学金
-          url: ''
-        - certificate_url: uploads/2023优秀大学生.jpg
-          date_end: ''
-          date_start: '2023-12-30'
-          description: ''
-          icon: ''
-          organization: 西北工业大学
-          organization_url: ''
-          title: 2023优秀大学生暨一等奖学金
-          url: ''
-        - certificate_url: uploads/2024硕士一等学业奖学金.jpg
-          date_end: ''
-          date_start: '2024-10-30'
-          description: ''
-          icon: ''
-          organization: 中国科学技术大学
-          organization_url: ''
-          title: 2024硕士一等学业奖学金
           url: ''
     design:
       columns: '2'
