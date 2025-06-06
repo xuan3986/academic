@@ -103,13 +103,13 @@ sections:
               * 2024 First Class Academic Scholarship.
     design:
       columns: '1'
-  - block: Awards
-    id: projects
+  - block: portfolio
+    id: awards
     content:
-      title: Projects
+      title: Awards
       filters:
         folders:
-          - project
+          - awards
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
       # Filter toolbar (optional).
