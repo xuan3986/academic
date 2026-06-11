@@ -32,9 +32,7 @@ tags:
 
 featured: true
 
-links:
-  - name: ACL Anthology
-    url: https://aclanthology.org/2025.coling-main.352/
+links: []
 
 url_pdf: 'https://aclanthology.org/2025.coling-main.352.pdf'
 url_code: ''

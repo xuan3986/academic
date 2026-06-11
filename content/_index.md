@@ -114,18 +114,6 @@ sections:
       columns: '2'
       view: card
 
-  - block: collection
-    id: publications
-    content:
-      title: Publications
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-
   # ─────────────────────  Honors & Awards  ─────────────────────
   - block: markdown
     id: awards

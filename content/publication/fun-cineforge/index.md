@@ -30,10 +30,6 @@ tags:
 featured: true
 
 links:
-  - name: Project Site
-    url: https://funcineforge.github.io/
-  - name: GitHub
-    url: https://github.com/FunAudioLLM/FunCineForge
   - name: Hugging Face
     url: https://huggingface.co/FunAudioLLM/Fun-CineForge
   - name: ModelScope
@@ -41,12 +37,12 @@ links:
 
 url_pdf: ''
 url_code: 'https://github.com/FunAudioLLM/FunCineForge'
-url_dataset: 'https://funcineforge.github.io/#dataset'
+url_dataset: ''
 url_poster: ''
 url_project: 'https://funcineforge.github.io/'
 url_slides: ''
 url_source: ''
-url_video: 'https://funcineforge.github.io/#demo'
+url_video: ''
 
 image:
   caption: ''

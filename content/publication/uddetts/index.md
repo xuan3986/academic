@@ -30,17 +30,13 @@ tags:
 
 featured: true
 
-links:
-  - name: OpenReview
-    url: https://openreview.net/forum?id=DuPYSaCiep
-  - name: Demo & Code
-    url: https://anonymous.4open.science/w/UDDETTS
+links: []
 
 url_pdf: 'https://openreview.net/pdf?id=DuPYSaCiep'
 url_code: 'https://anonymous.4open.science/w/UDDETTS'
 url_dataset: ''
 url_poster: ''
-url_project: 'https://anonymous.4open.science/w/UDDETTS'
+url_project: 'https://openreview.net/forum?id=DuPYSaCiep'
 url_slides: ''
 url_source: ''
 url_video: ''
