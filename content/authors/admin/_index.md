@@ -79,10 +79,8 @@ social:
 highlight_name: true
 ---
 
-Jiaxuan Liu (刘佳璇) is a Master's student at the **National Engineering Research Center of Speech and Language Information Processing (NERC-SLIP)**, University of Science and Technology of China, advised on text-to-speech and speech foundation models. He received his B.Eng. in Computer Science and Technology from Northwestern Polytechnical University in 2024, ranking **1st out of 234** in his class and graduating with the **Outstanding Graduate** honor.
+Jiaxuan Liu (刘佳璇) is a Master's student at the **National Engineering Research Center of Speech and Language Information Processing (NERC-SLIP)**, University of Science and Technology of China. His research focuses on **text-to-speech** and **speech foundation models**, centering on **highly expressive, human-like, emotionally rich and controllable speech synthesis**, as well as **multimodal movie dubbing** and **speech foundation models**.
 
-His research centers on **expressive, emotional, and controllable speech synthesis** and, more recently, **multimodal movie dubbing** and **speech foundation models**. As first author, he has published at **COLING 2025** ([DiffStyleTTS](#)), **IJCAI–ECAI 2026 (Oral)** ([Fun-CineForge](https://funcineforge.github.io/)), and on the unified discrete–dimensional emotional TTS framework **UDDETTS**. His work on Fun-CineForge has been open-sourced through Alibaba Tongyi's official speech repository, with the model receiving over 10,000 downloads.
-
-He has interned at the **ASLP@NPU Lab**, **Huawei**, **iFLYTEK**, **Alibaba Cloud Tongyi Lab**, and is currently with the **Xiaomi MiMo team** working on speech foundation model pre-training over hundreds of millions of hours of data.
+He has published **three first-author papers** in top international venues. **Fun-CineForge**, which he developed, has been open-sourced through Alibaba Tongyi's official speech repository and has received **over 10,000 downloads**.
 
 {style="text-align: justify;"}

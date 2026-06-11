@@ -1,50 +1,60 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# Jiaxuan Liu — Academic Website
 
-[![Screenshot](./preview.png)](https://hugoblox.com/templates/)
+Source for my personal academic site, **[jiaxuanliu.netlify.app](https://jiaxuanliu.netlify.app/)**.
 
-The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+I'm Jiaxuan Liu (刘佳璇), an M.Eng. student at the [National Engineering Research Center of Speech and Language Information Processing (NERC-SLIP)](http://nelslip.ustc.edu.cn/), University of Science and Technology of China. My research focuses on text-to-speech, expressive & emotional speech synthesis, multimodal movie dubbing, and speech foundation models.
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+The site is built with [Hugo](https://gohugo.io/) on top of the [HugoBlox Academic CV](https://github.com/HugoBlox/theme-academic-cv) theme, consumed as a Hugo Module — no fork, just config and content.
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, Hugo Blox Builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+## Repository layout
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+- `content/authors/admin/` — author profile (bio, interests, education, socials)
+- `content/_index.md` — homepage, assembled from widget blocks (`hero`, `about.biography`, `experience`, `collection`, `contact`, …)
+- `content/publication/` — papers (`audiobook-tts`, `diffstyletts`, `fun-cineforge`, `uddetts`)
+- `content/project/` — projects (`pinn-pde`, `road-damage-detection`, `wenxin-creative-app`, `xray-keypoint-detection`)
+- `config/_default/` — site config (`hugo.yaml`, `params.yaml`, `menus.yaml`, `languages.yaml`, `module.yaml`)
+- `layouts/`, `assets/`, `static/` — local theme overrides and static assets
+- `publications.bib` — drop a BibTeX file here to auto-import publications via CI
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://hugoblox.com/creators/).
+## Local development
 
-The integrated [**Hugo Blox Builder**](https://hugoblox.com) and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+Requires Hugo extended **0.119.0** (matches `netlify.toml` and the GitHub Pages workflow).
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 💡 [Suggest an improvement](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+```bash
+# Live-reload dev server, including draft and future-dated content
+hugo server -D -F
 
-## We ask you, humbly, to support this open source movement
+# Production build (same flags as the Pages workflow)
+hugo --minify
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+# Refresh theme modules after editing go.mod or imports
+hugo mod get -u
+hugo mod tidy
+```
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+The Go module proxy is pinned to `goproxy.cn` in `config/_default/module.yaml` for faster module fetches in mainland China.
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+## Importing publications
 
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="https://hugoblox.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Hugo Blox Builder"></a></p>
+```bash
+pip install academic==0.10.0
+academic import publications.bib content/publication/ --compact
+```
 
-## Demo image credits
+Pushing an updated `publications.bib` to `main` also triggers `.github/workflows/import-publications.yml`, which runs the importer and opens a PR with the regenerated `content/publication/<slug>/` folders. Don't hand-edit those folders if you intend to re-import — the converter overwrites them.
 
-- [Unsplash](https://unsplash.com)
+## Deployment
 
-## Latest news
+Two deploy paths are wired up and both are live:
 
-<!--START_SECTION:news-->
+- **Netlify** (primary, `https://jiaxuanliu.netlify.app/`) — configured in `netlify.toml`, with deploy-preview and branch-deploy contexts.
+- **GitHub Pages** — configured in `.github/workflows/publish.yaml`, triggered on push to `main`. The workflow overrides `baseURL` at build time via `--baseURL`.
 
-- [Easily make an academic CV website to get more cites and grow your audience 🚀](https://hugoblox.com/blog/easily-make-academic-website/)
-- [What&#39;s new in v5.2?](https://hugoblox.com/blog/whats-new-in-v5.2/)
-- [What&#39;s new in v5.1?](https://hugoblox.com/blog/whats-new-in-v5.1/)
-- [Version 5.0 (February 2021)](https://hugoblox.com/blog/version-5.0-february-2021/)
-- [Version 5.0 Beta 3 (February 2021)](https://hugoblox.com/blog/version-5.0-beta-3-february-2021/)
-<!--END_SECTION:news-->
+## Customizing the theme
+
+The Academic theme ships through three Hugo modules: `blox-bootstrap/v5`, `blox-plugin-netlify`, `blox-plugin-reveal`. To override a layout, mirror the module's path under the top-level `layouts/` directory — Hugo's lookup picks the local file first. Don't edit files inside the module cache.
+
+## License
+
+Site content (text, figures, publications) © Jiaxuan Liu.
+The underlying [HugoBlox Academic CV](https://github.com/HugoBlox/theme-academic-cv) theme is distributed under its own license — see [`LICENSE.md`](./LICENSE.md).

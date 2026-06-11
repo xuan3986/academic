@@ -1,6 +1,6 @@
 ---
 title: 'Baidu Wenxin LLM — Creative Application'
-summary: Creative-application project on the Baidu Wenxin LLM "Yang Gu" community — earned Baidu's A- award and 3,000+ users.
+summary: Creative application built on the Baidu Wenxin (ERNIE) LLM. Awarded Baidu's A- prize and reached 3,000+ users.
 tags:
   - LLM
   - Application
@@ -12,7 +12,6 @@ image:
   caption: ''
   focal_point: Smart
 
-# links: []
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -21,11 +20,4 @@ url_video: ''
 slides: ''
 ---
 
-> 应用截图、Demo、奖励证书与链接将稍后补充。
-> App screenshots, demo, certificate, and links will be added later.
-
-**Period.** Aug 2022 – Oct 2022.
-
-**Role.** Participant, Baidu Wenxin LLM "Yang Gu" Community Creative-Application Program.
-
-**Summary.** Built a creative application on top of the **Baidu Wenxin (ERNIE)** large language model. The project received a **Baidu A- Award** and reached **3,000+ active users**.
+**Aug 2022 – Oct 2022.** Built a creative application on top of the **Baidu Wenxin (ERNIE)** large language model under the "Yang Gu" community program. Received a **Baidu A- Award** and reached **3,000+ active users**.
