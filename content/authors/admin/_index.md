@@ -56,12 +56,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/xuan3986
-    label: Follow me on Twitter
-    display:
-      header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link:
@@ -80,6 +74,8 @@ highlight_name: true
 ---
 
 Jiaxuan Liu (刘佳璇) is a Master's student at the **National Engineering Research Center of Speech and Language Information Processing (NERC-SLIP)**, University of Science and Technology of China. His research focuses on **text-to-speech** and **speech foundation models**, centering on **highly expressive, human-like, emotionally rich and controllable speech synthesis**, as well as **multimodal movie dubbing** and **speech foundation models**.
+
+He is currently working with the **Xiaomi MiMo team**, leading **data construction and pre-training** for the next generation of speech foundation models on a corpus of **hundreds of millions of hours** of audio and video data.
 
 He has published **three first-author papers** in top international venues. **Fun-CineForge**, which he developed, has been open-sourced through Alibaba Tongyi's official speech repository and has received **over 10,000 downloads**.
 

@@ -101,11 +101,11 @@ sections:
     design:
       columns: '2'
 
-  # ─────────────────  Featured Publications  ─────────────────
+  # ─────────────────  Projects  ─────────────────
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Projects
       filters:
         folders:
           - publication
@@ -117,7 +117,7 @@ sections:
   - block: collection
     id: publications
     content:
-      title: All Publications
+      title: Publications
       filters:
         folders:
           - publication
@@ -125,29 +125,6 @@ sections:
     design:
       columns: '2'
       view: citation
-
-  # ────────────────────────  Projects  ────────────────────────
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-      default_button_index: 0
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Computer Vision
-          tag: Computer Vision
-        - name: Scientific Computing
-          tag: Scientific Computing
-        - name: LLM
-          tag: LLM
-    design:
-      columns: '1'
-      view: showcase
-      flip_alt_rows: false
 
   # ─────────────────────  Honors & Awards  ─────────────────────
   - block: markdown
@@ -193,9 +170,7 @@ sections:
       subtitle: ''
       text: |-
         - Secretary, **2nd Postgraduate Party Branch**, Class of 2024, School of Information Science and Technology, USTC · 2024 – Present
-        - **Class Study Committee Member**, NWPU — led the class to the No. 1 average GPA in the major for two consecutive years · 2020 – 2024
-        - Flag-phalanx member, **14th National Games of the PRC** opening & closing ceremonies · 2021
-        - **917 hours** of volunteer service across 10+ social-practice programs · 2020 – 2024
+        - **Class Study Committee Member**, NWPU · 2020 – 2024
     design:
       columns: '2'
 
@@ -216,8 +191,7 @@ sections:
         postcode: '230031'
         country: China
         country_code: CN
-      directions: Enter Xin Zhi Building
-      office_hours: 'Working days 10:00 – 17:00'
+      directions: ''
       coordinates:
         latitude: '31.82447164209566'
         longitude: '117.12452094557694'
@@ -226,10 +200,6 @@ sections:
           icon_pack: fab
           name: GitHub
           link: 'https://github.com/xuan3986'
-        - icon: twitter
-          icon_pack: fab
-          name: Twitter
-          link: 'https://twitter.com/xuan3986'
       autolink: true
       form:
         provider: netlify
