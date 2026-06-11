@@ -55,12 +55,14 @@ sections:
       items:
         - title: Speech Foundation Model Pre-training Intern
           company: Xiaomi · MiMo Team
+          company_logo: xiaomi
           location: ''
           date_start: '2026-05-01'
           date_end: ''
           description: Pre-training a speech foundation model on hundreds of millions of hours of data — multimodal understanding & unified audio synthesis.
         - title: Algorithm Engineer Intern — Speech AI
           company: Alibaba Cloud · Tongyi Lab
+          company_logo: aliyun
           location: ''
           date_start: '2025-07-01'
           date_end: '2026-05-01'
@@ -73,8 +75,10 @@ sections:
           date_start: '2024-11-01'
           date_end: '2025-06-30'
           description: A unified discrete + dimensional (Arousal–Dominance–Valence) emotional-TTS framework with fine-grained linear 3-D controllability.
-        - title: Joint Project · DiffStyleTTS
-          company: USTC · iFLYTEK · China Mobile Research
+        - title: NSFC Joint-Fund Project · DiffStyleTTS
+          company: USTC · NERC-SLIP
+          company_url: 'http://nelslip.ustc.edu.cn/'
+          company_logo: ustc
           location: Hefei, China
           date_start: '2024-06-01'
           date_end: '2024-10-30'
@@ -82,18 +86,21 @@ sections:
         - title: Research Intern · Undergraduate Thesis
           company: iFLYTEK · Core R&D Platform
           company_url: 'https://www.iflytek.com/'
+          company_logo: iflytek
           location: Hefei, China
           date_start: '2023-12-01'
           date_end: '2024-04-30'
           description: Diffusion-based acoustic models for diverse and controllable prosodic TTS.
         - title: Research Intern · Expressive Audiobook TTS
           company: Huawei
+          company_logo: huawei
           location: ''
           date_start: '2023-06-01'
           date_end: '2023-07-31'
           description: A multi-modal continuous emotional space + T5/contrastive text-emotion module to relieve audiobook listener fatigue.
         - title: Research Intern · Singing Voice Synthesis
           company: ASLP@NPU Lab
+          company_logo: nwpu
           location: Xi'an, China
           date_start: '2022-06-01'
           date_end: '2022-07-31'

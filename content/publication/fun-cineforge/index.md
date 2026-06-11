@@ -30,13 +30,17 @@ tags:
 featured: true
 
 links:
-  - name: Hugging Face
+  - name: GitHub
+    url: https://github.com/FunAudioLLM/FunCineForge
+    icon: github
+    icon_pack: fab
+  - name: '<img src="/media/icons/huggingface.svg" width="16" height="16" style="vertical-align: -3px; margin-right: 4px;" alt=""> Hugging Face'
     url: https://huggingface.co/FunAudioLLM/Fun-CineForge
-  - name: ModelScope
+  - name: '<img src="/media/icons/modelscope.svg" width="16" height="16" style="vertical-align: -3px; margin-right: 4px;" alt=""> ModelScope'
     url: https://www.modelscope.cn/models/FunAudioLLM/Fun-CineForge
 
-url_pdf: ''
-url_code: 'https://github.com/FunAudioLLM/FunCineForge'
+url_pdf: 'https://arxiv.org/pdf/2601.14777'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: 'https://funcineforge.github.io/'
