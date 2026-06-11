@@ -129,13 +129,13 @@ sections:
       subtitle: ''
       text: |-
         ### 🎓 Scholarships
-        - **USTC 0006 Scholarship** · 2025
         - **Zenghua Special Scholarship**, USTC · 2025
-        - **Master's First-Class Academic Scholarship**, USTC · 2024
+        - **USTC 0006 Scholarship** · 2025
+        - **Master's First-Class Academic Scholarship**, USTC · 2024, 2025
         - **Xiaomi Excellent Scholarship** · 2023
         - **National Inspirational Scholarship** · 2022, 2023
         - **Yajun Wu Special Scholarship**, NWPU · 2022
-        - **NWPU First-Class Academic Scholarship** · 2021 – 2023
+        - **First-Class Academic Scholarship**, NWPU · 2021, 2022, 2023
         - **National Scholarship** · 2021
 
         ### 🏆 Competitions (Selected)
@@ -149,7 +149,7 @@ sections:
         ### ✨ Other Honors
         - **Outstanding Communist Party Member**, USTC · 2025, 2026
         - **Granted Chinese Invention Patent** — Lightweight End-to-End Object Segmentation for Road-Damage Detection · 2025
-        - **Outstanding Graduate of NWPU** · 2024
+        - **[Outstanding Graduate of NWPU](/uploads/resume.pdf)** · 2024
         - **Outstanding Student of NWPU** · 2021, 2022, 2023
         - **Outstanding Communist Youth League Member** (May 4th Honors) · 2021, 2022
         - **Outstanding Intern**, ASLP@NPU Lab · 2022
