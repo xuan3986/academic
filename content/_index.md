@@ -112,7 +112,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Projects
+      title: Featured Projects
       filters:
         folders:
           - publication
