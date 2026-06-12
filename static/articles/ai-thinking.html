@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>对 AI 发展的一点观察和思考</title>
+  <meta name="description" content="关于基础模型、私域数据、AI 商业化、基础设施约束、资本市场风险与行业变化的个人观察。">
+  <style>
+    :root {
+      --bg: #f8f6f1;
+      --ink: #1c2224;
+      --muted: #687174;
+      --line: #ddd6ca;
+      --accent: #24424a;
+      --soft: #f0ebe2;
+      color-scheme: light;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      font-size: 17px;
+      line-height: 1.86;
+      letter-spacing: 0;
+    }
+
+    .page {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 76px 0 84px;
+    }
+
+    header {
+      width: min(820px, 100%);
+      padding-bottom: 38px;
+      margin-bottom: 46px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .meta {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+
+    h1 {
+      margin: 0 0 22px;
+      color: var(--ink);
+      font-size: clamp(2.15rem, 6vw, 4rem);
+      line-height: 1.18;
+      font-weight: 760;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      margin: 0;
+      color: #3d474a;
+      font-size: clamp(1.03rem, 1.6vw, 1.18rem);
+      line-height: 1.9;
+    }
+
+    .content-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 820px) 260px;
+      gap: 64px;
+      align-items: start;
+    }
+
+    .reading-path {
+      position: sticky;
+      top: 24px;
+      padding: 18px 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(248, 246, 241, 0.86);
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.75;
+      backdrop-filter: blur(12px);
+    }
+
+    .reading-path h2 {
+      display: block;
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 0.92rem;
+      line-height: 1.35;
+    }
+
+    .reading-path a {
+      display: block;
+      padding: 8px 0;
+      border-top: 1px solid rgba(221, 214, 202, 0.82);
+      color: #4f5c60;
+      font-size: 0.92rem;
+      line-height: 1.45;
+      text-decoration: none;
+    }
+
+    .reading-path a:hover,
+    .reading-path a:focus {
+      color: var(--ink);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    article {
+      display: block;
+    }
+
+    section {
+      margin: 0 0 44px;
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      color: var(--accent);
+      font-size: clamp(1.38rem, 3vw, 1.82rem);
+      line-height: 1.34;
+      font-weight: 720;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 19px;
+    }
+
+    strong {
+      color: #1f3035;
+      font-weight: 720;
+    }
+
+    ul {
+      margin: 18px 0 24px;
+      padding-left: 1.25em;
+    }
+
+    li {
+      margin: 0 0 11px;
+      padding-left: 0.1em;
+    }
+
+    .plain-note {
+      margin: 26px 0 0;
+      padding: 0 0 0 16px;
+      border-left: 3px solid #b88b3a;
+      color: #4c5558;
+    }
+
+    .closing {
+      margin-top: 56px;
+      padding-top: 32px;
+      border-top: 1px solid var(--line);
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.65;
+    }
+
+    @media (max-width: 1040px) {
+      .content-layout {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+
+      .reading-path {
+        position: static;
+        order: -1;
+        margin: -12px 0 38px;
+        background: transparent;
+        backdrop-filter: none;
+      }
+    }
+
+    @media (max-width: 720px) {
+      body {
+        font-size: 16px;
+        line-height: 1.82;
+      }
+
+      .page {
+        width: min(100% - 30px, 1180px);
+        padding: 48px 0 64px;
+      }
+
+      header {
+        margin-bottom: 38px;
+        padding-bottom: 30px;
+      }
+
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: auto;
+        max-width: none;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="meta">个人观察 | 2026</p>
+      <h1>对 AI 发展的一点观察和思考</h1>
+      <p class="lead">过去一年，我对 AI 的感受变得更复杂。它当然还在进步，但决定产业走向的东西，已经不只在模型参数里，也在数据从哪里来、产品怎么收费、成本能不能扛住、客户愿不愿意把核心流程交给它，以及资本市场愿意等多久。</p>
+    </header>
+
+    <div class="content-layout">
+    <article>
+      <section id="real-world">
+        <h2>从模型能力，走到真实世界</h2>
+        <p>前两年讨论 AI，很多人习惯看榜单、看参数、看上下文长度、看模型发布会。那当然重要，因为基础模型能力是所有应用的起点。但现在再看，单纯比较模型能力已经不够了。一个模型能不能变成生意，最后还要看它能不能进入真实场景，能不能拿到真实数据，能不能替客户省钱、赚钱、降低风险，或者把原来做不了的事情做出来。</p>
+        <p>所以我现在更愿意把 AI 放在一整条产业链里看：上游是芯片、电力、存储、网络和数据中心；中间是基础模型、数据和 post-training；下游是各种产品、agent、企业服务和行业 workflow；再往外，是资本市场、宏观利率和各行业自己的组织能力。AI 的变化不是发生在一个点上，而是这些东西一起拉扯出来的。</p>
+      </section>
+
+      <section id="data">
+        <h2>公域数据红利变薄，私域数据会变重</h2>
+        <p>大模型过去几年的进步，很大一部分来自 scaling。更多参数、更多算力、更多数据，确实带来了非常明显的能力跃迁。但高质量互联网资料不是无限的。公开网页、书籍、代码、问答、论文、图像和视频被一轮轮清洗、去重、蒸馏之后，边际收益会下降。继续堆数据当然还有用，但不会像早期那样简单。</p>
+        <p>这会把模型发展推向私域。企业内部的客服记录、销售线索、合同、工单、代码仓库、财务凭证、审计底稿、医疗影像、实验日志、工业传感器数据，以及专家在真实任务里做判断的过程，都比普通互联网文本更接近价值本身。问题是，这些数据通常不干净、不标准、不开放，也有权限、合规、隐私和信任成本。</p>
+        <p>因此，未来很可能出现两类长期机会。第一类是数据公司：它们不只是标注数据，而是帮模型公司和行业客户把低覆盖度、低结构化、难进入的场景变成可训练、可评估、可复用的数据资产。第二类是拥有真实业务入口的软件公司：它们离客户更近，知道数据在哪里，也知道哪些结果真的有用。</p>
+        <p>美国 AI 已经热得很快，资金、人才和基础设施都高度集中，也更容易在短期内把估值打得很高。中国 AI 还会长期发展，但很多项目现在仍然粗糙，真正的产品能力、行业数据、企业付费和工程交付都需要时间补课。这个阶段不能只看谁发了模型，更要看谁能把模型放进产业里持续迭代。</p>
+      </section>
+
+      <section id="model-split">
+        <h2>基础模型和应用模型会逐渐分化</h2>
+        <p>基础模型和应用模型以后会越来越像两种生意。基础模型追求通用能力、规模、推理效率和全球分发，门槛很高，也很烧钱。它需要顶级人才、海量算力、数据工程、安全对齐和长期资本，最后可能只剩少数公司能持续参与最前沿的 scaling。</p>
+        <p>应用模型不一定追求“什么都懂”，它更在意能不能在一个具体场景里稳定干活。一个面向审计、客服、代码、医疗、供应链或工业运维的模型，未必需要在所有通用榜单上第一，但它必须懂业务字段、权限边界、历史数据、质检规则和异常处理。很多时候，小一些、便宜一些、被行业数据和 workflow 训练过的模型，反而更适合落地。</p>
+        <p>这会带来一个分工：基础模型提供底座能力，应用模型和 harness 负责把能力变成可交付的结果。前者的竞争更像基础设施，后者的竞争更像行业软件。越往应用层走，模型本身只是其中一部分，数据、流程、集成、评估、合规和客户关系都会变得同样重要。</p>
+      </section>
+
+      <section id="commercial">
+        <h2>模型公司为什么要做自己的产品</h2>
+        <p>如果模型公司只卖 token，生意会越来越像云计算。能力被 benchmark 比较，价格容易被打下来，客户也会在不同模型之间切换。token 计费不会消失，但它更像基础能力的计量方式，不一定是最好的利润形态。</p>
+        <p>模型公司做自己的产品，或者说做自己的 harness，核心原因之一是数据回流。harness 不是简单的聊天框，而是一个带上下文、权限、工具、流程、审计、反馈和评估的任务环境。用户在里面怎么提需求、怎么调用工具、哪里失败、哪里满意、哪些结果被保留，这些都可以变成非常珍贵的训练和评估信号。</p>
+        <p>好的 harness 还能被 post-training 针对性优化。比如同样是写代码，IDE 里的模型知道文件结构、测试结果、提交历史和错误栈，表现会比普通聊天框更稳定；同样是客服，接入工单系统、知识库、权限和质检标准之后，模型才像一个真正能上岗的工具。未来模型公司卖的可能越来越不是裸 token，而是被封装进 workflow 的能力。</p>
+        <p>这也解释了北美模型公司为什么重视 FDE，也就是 Frontier Deployment Engineer 或 Forward Deployed Engineer 这类角色。它们把模型带进大客户现场，帮客户把流程跑起来，这有真实价值；但从商业上看，它也有 go-to-market 和估值叙事的作用。模型公司不可能自己覆盖所有行业现场，覆盖度差、数据脏、流程复杂的垂直场景，最后往往还是要交给数据公司、软件公司、咨询交付团队和行业伙伴一起做。</p>
+      </section>
+
+      <section id="agents">
+        <h2>垂类 agent 的护城河不在模型本身</h2>
+        <p>美国是 SaaS 的天堂，企业愿意为软件付费，B2B 销售和生态也成熟，所以垂类 agent 创业公司会很多，资本也愿意投。它们的逻辑通常不是“我有一个更强的模型”，而是“我更懂这个行业的流程，并且能把模型塞进客户每天工作的地方”。</p>
+        <p>垂类 agent 的护城河大概率来自四件事：partnership、信任、workflow 依赖和持续沉淀的私域数据。越接近模型层，越容易被更强的基础模型替代；越接近客户流程、权限系统、数据结构和组织习惯，越不容易被直接替换。这也是我理解垂类 agent 的一个基本出发点：离模型层越远，护城河通常越安全。</p>
+        <p>但这句话也不能理解得太绝对。离模型层太远，如果只是做项目制交付，也可能变成低毛利外包。真正好的形态，是既足够接近客户流程，又能把重复需求产品化；既有行业知识，又能形成数据闭环；既能借用基础模型能力，又不把自己的价值完全押在某一个模型供应商身上。</p>
+      </section>
+
+      <section id="profit">
+        <h2>AI 商业化最后要落到利润</h2>
+        <p>AI 产品要赚钱，不能只靠“看起来很智能”。客户愿意长期付费，通常是因为它至少满足其中一种结果：减少人力成本，提高收入转化，缩短交付周期，降低错误和合规风险，或者让原来无法规模化的服务变得可以规模化。</p>
+        <p>从产品侧看，比较可能跑出来的形态不是一个万能助手，而是一批嵌入具体岗位的工具：研发里的代码 agent，销售里的线索和跟进 agent，客服里的工单 agent，法务里的合同审阅 agent，财务里的对账和审计 agent，医疗里的辅助诊断和病历整理工具，工业里的预测性维护和调度系统，科研里的实验设计和文献分析平台。</p>
+        <p>模型公司想把收入变成利润，还要解决成本问题。推理成本、长上下文成本、存储成本、客户定制成本和售后交付成本都会吞掉毛利。真正成熟的商业化，可能会依赖模型路由、小模型蒸馏、缓存、异步任务、企业级权限、稳定评估体系和更清楚的定价方式。也就是说，AI 的利润不只来自模型聪明，还来自产品工程和运营效率。</p>
+      </section>
+
+      <section id="infrastructure">
+        <h2>基础设施不是口号，而是成本表</h2>
+        <p>AI 发展到今天，基础设施已经从幕后走到台前。GPU、HBM、存储、网络、机房、电力、液冷、服务器交付和运维效率，都会实实在在进入成本表。模型能力越强，用户越多，推理越频繁，这些成本就越真实。</p>
+        <p>芯片决定训练和推理的上限，电力决定数据中心能不能持续扩张，存储决定数据和上下文能不能被低成本地保留下来。过去很多人只盯着 GPU，但 AI 集群不是只买一堆卡就能跑起来。网络带宽、故障率、调度效率、供电接入、散热能力、数据治理和安全审计，任何一个环节掉链子，都会影响最终服务。</p>
+        <p>存储和内存价格的剧烈波动也值得看。AI 需求推高 HBM、DRAM、NAND 和企业级存储的预期，相关资产和采购合同容易出现快速重估。价格上涨会抬高 capex 和推理成本；如果随后又出现跳水和反复震荡，也说明市场在重新判断供需、库存和未来订单。它未必单独说明周期反转，但可以作为观察 AI 资本开支节奏的一个信号。</p>
+      </section>
+
+      <section id="industries">
+        <h2>AI 会先改变流程，再改变行业</h2>
+        <p>AI 不会平均地改变所有行业。它会先进入数字化程度高、数据反馈快、流程标准化、ROI 容易计算的地方。软件、客服、销售、广告、内容生产、设计、法务、咨询、金融研究、审计、教育辅导，这些行业会更早感受到变化，因为它们的输入输出更容易被文本、代码、表格、图像和流程系统表达出来。</p>
+        <p>软件行业的变化会很直接。基础编码越来越工具化，但系统设计、产品判断、工程质量、数据组织、架构取舍和复杂问题拆解会更重要。内容和设计行业会被大幅提效，但审美、叙事、品牌理解和人类经验仍然重要。金融、法务和咨询不会因为 AI 立刻消失，但检索、初稿、分析、尽调和报告生产会被重新分工。</p>
+        <p>工业、能源、通信、医药、材料和机器人会慢一些，因为它们有物理世界、设备系统、实验验证、安全责任和监管边界。但这些领域的变化可能更深。AI 在这里不是简单替代一个岗位，而是帮助做仿真、筛选、监控、调度、预测和实验设计。真正难的部分不是让模型说出答案，而是让答案在现实系统里可靠发生。</p>
+        <p>教育和个人成长也会被影响。AI 会让知识获取更便宜，但也会让浅层知识更不稀缺。未来更重要的能力，可能是提出好问题、判断答案质量、理解具体行业、组织复杂任务，以及把 AI 变成自己的工作流，而不是只会问几个漂亮的 prompt。</p>
+      </section>
+
+      <section id="programming">
+        <h2>编程工作的价值重心正在迁移</h2>
+        <p>编程会是最早被 AI 深度改造的工作之一。过去很多工程师的时间花在写样板代码、查 API、补类型、改小 bug、搬运配置和写重复测试上，这些事情会越来越多地交给工具。AI 不一定让软件工程变简单，但会让“只会把明确需求翻译成代码”的价值下降。</p>
+        <p>价值会往更上游和更下游迁移。上游是需求理解、产品判断、架构设计、数据建模和技术取舍；下游是测试、可观测性、性能、安全、灰度、回滚、成本控制和长期维护。代码生成以后，真正难的是判断这段代码该不该存在、放在哪里、会不会破坏系统边界、出了问题谁负责。</p>
+        <p>这也会改变工程师的成长路径。初级任务被工具吃掉一部分之后，单纯靠堆 CRUD 和修小 bug 积累经验会变难；但能把 AI 当成工程伙伴的人，产出上限会变高。未来好的程序员，可能更像一个会写代码的系统设计者、产品理解者和自动化组织者，而不是只按需求单写函数的人。</p>
+      </section>
+
+      <section id="market">
+        <h2>资本市场的风险不能忽视</h2>
+        <p>我担心 AI 的估值泡沫，不是因为 AI 是假的，而是因为资本市场经常会把真实技术提前透支。铁路、互联网、新能源都有过类似阶段：技术方向没有错，但融资、产能、估值和利润兑现之间出现错配，最后就会经历剧烈调整。</p>
+        <p>这一轮 AI 泡沫的形成并不难理解。第一，基础模型确实带来了惊艳体验，市场愿意给远期想象力很高的估值。第二，头部公司资本开支巨大，GPU、数据中心、电力和长期采购合同把需求迅速放大。第三，美股指数高度集中，少数 AI 相关公司带动了市场叙事。第四，产业链里可能存在一定的循环：模型公司融资买算力，云厂商建数据中心，芯片公司确认订单，资本市场再用这些订单证明 AI 需求强劲。</p>
+        <p>宏观环境又让问题更敏感。美国联邦债务总额已经超过 39 万亿美元；如果用总债务口径看，债务与 GDP 的比例已经在 120% 左右；如果用 CBO 更常用的公众持有债务口径看，也预计会从现在的 100% 出头继续走高。利息支出占财政收入的比例已经接近“四块税里一块付利息”的量级，这会压缩财政弹性。</p>
+        <p>同时，中国、日本等海外持有人对美债的配置变化，全球央行增持黄金，以及美元资产在某些阶段出现“sell America”的讨论，都说明市场对美国财政和美元信用并不是没有疑虑。它不意味着危机一定马上发生，但会降低市场对高估值、远期利润和长期亏损叙事的容忍度。</p>
+        <p>如果 AI 资产出现大幅重估，它可能通过几条链条放大风险：科技股回撤影响指数和财富效应，数据中心和电力项目融资承压，私募信贷和长期采购合同重新定价，企业削减 AI 预算，模型公司收入不及预期。AI 未必是金融危机的根本原因，但在高债务、高集中度和高预期的环境里，它有可能成为导火索之一。</p>
+      </section>
+
+      <section id="talent">
+        <h2>个人能力会向更深的地方迁移</h2>
+        <p>AI 对人的影响，不能只理解成“某个专业好不好”。更现实的变化是，很多标准化、可流程化、可评估的脑力劳动都会被工具化。基础写作、基础代码、基础检索、基础制图、基础分析都会变便宜，人的价值会更多迁移到问题定义、场景理解、判断力、系统组织和结果负责。</p>
+        <p>这并不是说每个人都要转去做 AI。更稳妥的方式，是在一个真实行业里积累专业深度，同时学会用 AI 扩大自己的能力半径。懂医疗的人用 AI，和只懂 AI 但不懂医疗的人，做出来的东西会完全不同；懂工业、法律、金融、教育、能源、供应链的人也是一样。</p>
+        <p>把 AI 理解成一层会覆盖各行各业的工具，比把它当成一个单独专业更接近现实。真正稀缺的，是既懂一个具体问题域，又能理解数据、软件、模型边界和商业结果的人。</p>
+      </section>
+
+      <section id="directions">
+        <h2>几个值得继续看的方向</h2>
+        <ul>
+          <li><strong>能源：</strong>电力系统、先进能源、储能和电力电子。AI 数据中心需要稳定、便宜、可持续的电力，能源会从背景变量变成核心约束。</li>
+          <li><strong>通信：</strong>光互联、数据中心网络和端云协同。模型集群越大，网络越关键；端侧智能发展，也会重新考验通信和设备能力。</li>
+          <li><strong>数据：</strong>存储、数据库、数据治理和安全合规。私域数据要真正用于模型，必须先被整理、授权、追踪、评估和保护。</li>
+          <li><strong>科研：</strong>AI for Science、医药、材料和仿真。这些领域见效慢，但一旦模型进入实验和验证闭环，长期价值可能很大。</li>
+          <li><strong>应用：</strong>垂类软件、企业 agent 和行业自动化。最朴素的机会，往往不是重新发明一个大模型，而是把 AI 放进一个客户每天都要用的流程里。</li>
+        </ul>
+      </section>
+
+      <section id="closing" class="closing">
+        <h2>最后</h2>
+        <p>因为自己就在基础大模型算法这条线上，我当然知道模型能力本身有多重要。训练、数据、对齐、评估、推理效率，每一环都不轻松，也都还有继续往前走的空间。但也正因为离模型更近，我会更明显地感受到：模型能力只是 AI 产业的一层，离稳定产品、真实客户和可持续利润，中间还有很长一段路。</p>
+        <p>接下来几年，我会更关心两件事：一是基础模型还能通过数据、架构和 post-training 继续向前走多远；二是这些能力能不能进入具体产品、具体流程和具体行业，变成客户愿意长期付费的结果。能拿到高质量数据，能形成稳定 workflow，能控制推理和交付成本，能让客户持续付费的公司，才更可能穿过周期。</p>
+      </section>
+      <footer>
+        <p>个人观察，不构成投资建议。</p>
+      </footer>
+    </article>
+
+    <aside class="reading-path" aria-label="文章目录">
+      <h2>阅读路径</h2>
+      <nav>
+        <a href="#real-world">真实世界</a>
+        <a href="#data">私域数据</a>
+        <a href="#model-split">模型分化</a>
+        <a href="#commercial">商业化</a>
+        <a href="#agents">垂类 agent</a>
+        <a href="#profit">利润落地</a>
+        <a href="#infrastructure">基础设施</a>
+        <a href="#industries">行业变化</a>
+        <a href="#programming">编程工作</a>
+        <a href="#market">市场风险</a>
+        <a href="#talent">个人能力</a>
+        <a href="#directions">观察方向</a>
+        <a href="#closing">最后</a>
+      </nav>
+    </aside>
+    </div>
+  </main>
+</body>
+</html>

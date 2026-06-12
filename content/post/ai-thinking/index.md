@@ -17,8 +17,9 @@ lastmod: '2026-06-12'
 draft: false
 featured: false
 
-# Clicking the listing card opens the externally-hosted HTML directly.
-external_link: https://jxliu-open.oss-cn-beijing.aliyuncs.com/ai_thinking.html
+# Clicking the listing card opens the mirrored HTML on this site (Netlify
+# serves it inline; the original OSS object forces download).
+external_link: /articles/ai-thinking.html
 
 image:
   caption: ''
