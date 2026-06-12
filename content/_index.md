@@ -121,6 +121,23 @@ sections:
       columns: '2'
       view: card
 
+  # ─────────────────  Articles  ─────────────────
+  - block: collection
+    id: posts
+    content:
+      title: Articles
+      subtitle: 个人文章与见解
+      count: 5
+      filters:
+        folders:
+          - post
+        exclude_featured: false
+      sort_by: 'Date'
+      sort_ascending: false
+    design:
+      columns: '2'
+      view: card
+
   # ─────────────────────  Honors & Awards  ─────────────────────
   - block: markdown
     id: awards
