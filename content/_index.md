@@ -126,7 +126,7 @@ sections:
     id: posts
     content:
       title: Articles
-      subtitle: 个人文章与见解
+      subtitle: ''
       count: 5
       filters:
         folders:

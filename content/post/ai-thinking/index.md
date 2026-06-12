@@ -12,8 +12,8 @@ tags:
 categories:
   - 个人观察
 
-date: '2026-06-13'
-lastmod: '2026-06-13'
+date: '2026-06-12'
+lastmod: '2026-06-12'
 draft: false
 featured: false
 
