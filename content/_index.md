@@ -149,7 +149,7 @@ sections:
         ### ✨ Other Honors
         - **Outstanding Communist Party Member**, USTC · 2025, 2026
         - **Granted Chinese Invention Patent** — Lightweight End-to-End Object Segmentation for Road-Damage Detection · 2025
-        - **[Outstanding Graduate of NWPU](/uploads/resume.pdf)** · 2024
+        - **[Outstanding Graduate of NWPU](https://mp.weixin.qq.com/s/9-KtgJ1bb4zE3UM3gUthdA)** · 2024
         - **Outstanding Student of NWPU** · 2021, 2022, 2023
         - **Outstanding Communist Youth League Member** (May 4th Honors) · 2021, 2022
         - **Outstanding Intern**, ASLP@NPU Lab · 2022
