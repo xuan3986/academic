@@ -3,11 +3,11 @@
 title: Jiaxuan Liu
 
 # Name pronunciation (optional)
-# name_pronunciation: Jiaxaun Liu
+name_pronunciation: Jiaxaun Liu
 
 # Full name (for SEO)
-first_name: Jiaxuan
-last_name: Liu
+first_name: 刘佳璇
+last_name: ''
 
 # Status emoji
 status:
