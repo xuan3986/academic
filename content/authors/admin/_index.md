@@ -3,7 +3,7 @@
 title: Jiaxuan Liu
 
 # Name pronunciation (optional)
-name_pronunciation: Jiaxuan Liu
+name_pronunciation: 刘佳璇
 
 # Full name (for SEO)
 first_name: Jiaxuan
