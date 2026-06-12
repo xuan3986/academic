@@ -60,7 +60,7 @@ sections:
           date_start: '2026-05-01'
           date_end: ''
           description: Pre-training a speech foundation model on hundreds of millions of hours of data — multimodal understanding & unified audio synthesis.
-        - title: Algorithm Engineer Intern — Speech AI
+        - title: Algorithm Engineer Intern — Fun-CineForge
           company: Alibaba Cloud · Tongyi Lab
           company_logo: aliyun
           location: ''
